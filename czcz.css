@@ -2,6 +2,10 @@
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     box-sizing: border-box;
 }
+main{
+    max-width: 80%;
+    margin: auto;
+}
 header{
     background-color: #2c6e50;
     display: flex;
@@ -36,10 +40,48 @@ p{
     font-weight: bold;
     font-size: 11px;
 }
-main{
-    max-width: 80%;
-    margin: auto;
-}
 #navigalselso{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#kezd{
+    flex: 1 1 auto;
+}
+ul{
+    flex: 0 1 auto; 
+}
+#kezd{
+    color: #2c6e50;
+}
+#navigalselso ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+li{
+    flex: 0 0 100%;
+    text-decoration: none;
+}
+#tehenek{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+img{
+    max-width: 100px;
+}
+#navigalasmasodik{
+    display: flex;
+    flex-direction: row;
+}
+#jaj{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 12px;
+    gap: 8px;
+}
+li{
+    flex: 0 0 100%;
 }
