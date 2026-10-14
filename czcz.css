@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 main{
-    max-width: 80%;
+    max-width: 920px;
     margin: auto;
 }
 header{
@@ -16,14 +16,15 @@ header{
     justify-content: space-between;
     align-items: center;
     gap: 6px;
+    max-width: 100%;
 }
 #eleje{
     color: white;
-    flex: 0 1 100%;
+    flex: 1 1 100%;
     padding: 9px;
 }
 #vege{
-    flex: 0 1 100%;
+    flex: 1 1 30%;
     background-color: #45916e;
     border-radius: 15px;
     border: 2px solid rgb(135, 255, 135);
@@ -44,6 +45,7 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 100%;
 }
 #kezd{
     flex: 1 1 auto;
@@ -58,9 +60,14 @@ ul{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    flex: 0 1 auto;
 }
 li{
-    flex: 0 0 100%;
+    flex: 0 1 100%;
     text-decoration: none;
 }
 #tehenek{
