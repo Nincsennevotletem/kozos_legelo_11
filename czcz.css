@@ -146,6 +146,7 @@ aside{
 }
 #valami{
     display: flex;
+    align-items: flex-start;
 }
 section{
     display: flex;
@@ -174,4 +175,22 @@ h6{
     border-left: 2px solid green;
     border-radius: 15px;
     padding: 5px;
+}
+#piros{
+    border-left: 2px solid red;
+    border-radius: 15px;
+    background-color: rgb(231, 196, 130);
+    padding: 14px;
+}
+#alalallalal{
+    background-color: #2c6e50;
+    border-radius: 15px;
+    padding: 8px;
+    color: white;
+    flex: 0 1 auto;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
