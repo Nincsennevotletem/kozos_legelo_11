@@ -5,6 +5,9 @@
 main{
     max-width: 920px;
     margin: auto;
+    background-color: beige;
+    padding: 6px;
+    border-radius: 15px;
 }
 header{
     background-color: #2c6e50;
@@ -52,6 +55,9 @@ p{
 }
 ul{
     flex: 0 1 auto; 
+    list-style: none;
+    text-decoration: none;
+    color: white;
 }
 #kezd{
     color: #2c6e50;
@@ -69,14 +75,27 @@ ul{
 li{
     flex: 0 1 100%;
     text-decoration: none;
+    background-color: rgb(208, 231, 208);
+    border-radius: 15px;
+    padding: 6px;
+    text-decoration: none;
+    color: white;
 }
 #tehenek{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    background-color: rgb(102, 156, 102);
+    border-radius: 15px;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 6px;
+    padding: 20px;
+    gap: 8px;
 }
 img{
     max-width: 100px;
+    display: block;
 }
 #navigalasmasodik{
     display: flex;
@@ -88,7 +107,28 @@ img{
     margin: auto;
     padding: 12px;
     gap: 8px;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    max-width: 100%;
 }
 li{
     flex: 0 0 100%;
+}
+#navigalselso li{
+    flex: 0 1 auto;
+    gap: 6px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+}
+#jaj li{
+    color: white;
+    text-decoration: none;
+    flex: 0 1 auto;
+}
+#jaj a{
+    color: white;
+    text-decoration: none;
 }
