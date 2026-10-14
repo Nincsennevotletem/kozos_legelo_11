@@ -146,3 +146,17 @@ aside{
 #valami{
     display: flex;
 }
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#szoveg{
+    flex: 1 1 auto;
+    border: 2px solid green;
+    background-color: rgb(233, 233, 233);
+}
+#csillag{
+    background-color: #2c6e50;
+    border-radius: 15px;
+}
