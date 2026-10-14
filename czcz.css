@@ -132,3 +132,17 @@ li{
     color: white;
     text-decoration: none;
 }
+#kiemel{
+    background-color: green;
+    border-radius: 16px;
+    padding: 16px;
+}
+aside{
+    border: 2px solid green;
+    border-radius: 15px;
+    background-color: blanchedalmond;
+    flex: 0 1 auto;
+}
+#valami{
+    display: flex;
+}
